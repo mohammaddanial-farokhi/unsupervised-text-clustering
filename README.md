@@ -23,7 +23,7 @@
 - پاک‌سازی متن  
 - تولید Embedding با مدل: **all-mpnet-base-v2**  
 - نرمال‌سازی بردارها  
-- ذخیره Embedding در فایل `.npy`
+- ذخیره Embedding در فایل embeddings.npy``
 
 ---
 
