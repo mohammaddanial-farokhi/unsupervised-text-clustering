@@ -23,22 +23,22 @@
 - پاک‌سازی متن  
 - تولید Embedding با مدل: **all-mpnet-base-v2**  
 - نرمال‌سازی بردارها  
-- ذخیره Embedding در فایل embeddings.npy``
+- ذخیره Embedding در فایل `embeddings.npy`
 
 ---
 
 ### 🔹 **Dimensionality Reduction (UMAP)**
 - کاهش ابعاد به 10 مؤلفه  
 - metric = cosine  
-- ذخیره مدل UMAP در `.pkl`
+- ذخیره مدل UMAP در `umap_model.pkl`
 
 ---
 
 ### 🔹 **Clustering (HDBSCAN)**
 - خوشه‌بندی بدون نیاز به تعیین تعداد خوشه  
 - حذف نویز با label = -1  
-- ذخیره مدل HDBSCAN در `.pkl`  
-- ذخیره برچسب‌ها در `.npy`
+- ذخیره مدل HDBSCAN در `hdbscan_model.pkl`  
+- ذخیره برچسب‌ها در `labels.npy`
 
 ---
 
